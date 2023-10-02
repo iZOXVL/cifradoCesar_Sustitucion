@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <script src="js/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <link rel="shortcut icon" href="img/Lock_icon.png" type="image/x-icon">
+    <title>Inicio</title>
+</head>
+<body>
+
+    <h1 style="color: white;">Elige el tipo de cifrado</h1>
+    <br>
+
+        <button id="cesarBtn" class="ui-btn">
+          <center><span style="font-size: 1.5rem;">Cifrado Cesar</span></center>
+        </button>
+    
+        <br>
+
+        <button id="sustitucionBtn" class="ui-btn">
+            <center><span style="font-size: 1.5rem;">Cifrado por sustitución</span></center>
+        </button>
+    </div>
+    <footer><center><h3 style="color: white; margin-top: 15%;">Dev by: Gig 💜 & Armando 👽</h3></center></footer>
+  <script>
+    $(document).on('click', '#cesarBtn', function() {
+        window.location.href = "cesar.html";
+    });
+    $(document).on('click', '#sustitucionBtn', function() {
+        window.location.href = "sustitucion.html";
+    });
+  </script>
+    <script src="js/scripts.js"></script>
+   
+</body>
+</html>
